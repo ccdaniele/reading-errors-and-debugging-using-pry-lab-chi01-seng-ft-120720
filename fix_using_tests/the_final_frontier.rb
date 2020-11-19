@@ -13,5 +13,6 @@ end
 def engage
   puts state_log(date)
   date = generate_star_date
-  binding.
+  binding.pry
+  puts "home"
 end
